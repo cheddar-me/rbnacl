@@ -4,6 +4,8 @@ source "https://rubygems.org"
 
 gemspec
 
+gem "ffi", github: "cheddar-me/ffi", branch: "apple-m1", submodules: true
+
 group :development do
   gem "guard-rspec"
 end
